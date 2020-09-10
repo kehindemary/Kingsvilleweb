@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 28, 2020 at 12:10 PM
+-- Generation Time: Sep 10, 2020 at 02:13 PM
 -- Server version: 8.0.18
 -- PHP Version: 7.3.11
 
@@ -175,12 +175,12 @@ INSERT INTO `gallery` (`id`, `title`, `category`, `image_location`) VALUES
 (23, '', 'facility', 'https://res.cloudinary.com/kingsvilleschools/image/upload/v1596628419/assets/image-slides/advance_school_qy0bqu.jpg'),
 (24, '', 'facility', 'https://res.cloudinary.com/kingsvilleschools/image/upload/v1596623979/assets/image-slides/KINGSVILLE_SCHOOLS_ABUJA_2019_WAEC_RESULTS_ANALYSIS_3_twxulf.png'),
 (25, '', 'facility', 'https://res.cloudinary.com/kingsvilleschools/image/upload/v1596535568/assets/image-slides/P1230966-min_n5ziyk.jpg'),
-(26, '', 'facility', '34661395982151393972.jpg'),
-(27, '', 'facility', '51129267143799178983.jpg'),
-(28, '', 'facility', '64779879541648218867.jpg'),
-(29, '', 'education', '91436857495679867393.jpg'),
-(36, 'Kingsville delegates at the 2020 Commonwealth Day Celebration ', '', '14958798974113939334.jpg'),
-(37, 'KINGSVILLE DELEGATES AT 2020 COMMONWEALTH DAY CELEBRATION', 'event', '61126619336812656847.jpg');
+(26, '', 'facility', 'https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189196/assets/image-slides/clinic-min_k6vaog.jpg'),
+(27, '', 'facility', 'https://res.cloudinary.com/kingsvilleschools/image/upload/v1596535569/assets/image-slides/vocational-skill-min-min_srhgjw.jpg'),
+(28, '', 'facility', 'https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189197/assets/image-slides/lab-2-min_j0n2yd.jpg'),
+(29, '', 'education', 'https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189198/assets/image-slides/physics-lab-min_ye0ur0.jpg'),
+(36, 'Kingsville delegates at the 2020 Commonwealth Day Celebration ', '', 'https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189199/assets/image-slides/SECTION_OF_THE_CLASSROOM_BLOCKS-min_sqt3rb.jpg'),
+(37, 'KINGSVILLE DELEGATES AT 2020 COMMONWEALTH DAY CELEBRATION', 'event', 'https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189199/assets/image-slides/student-stairs-min-min_qxopoy.jpg');
 
 -- --------------------------------------------------------
 
@@ -293,6 +293,90 @@ INSERT INTO `users` (`id`, `username`, `password`, `fullname`, `email`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `user_enrollment`
+--
+
+CREATE TABLE `user_enrollment` (
+  `id` int(11) NOT NULL,
+  `surname` varchar(30) NOT NULL,
+  `othernames` varchar(60) NOT NULL,
+  `address` varchar(150) NOT NULL,
+  `dob` date NOT NULL,
+  `gender` varchar(6) NOT NULL,
+  `nationality` varchar(30) NOT NULL,
+  `soo` varchar(10) NOT NULL,
+  `lga` varchar(20) NOT NULL,
+  `class` varchar(20) NOT NULL,
+  `psa` varchar(70) NOT NULL,
+  `disability` varchar(100) DEFAULT NULL,
+  `image_link` varchar(10000) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `enrolled` tinyint(1) DEFAULT '0',
+  `date_of_reg` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_of_enroll` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `user_enrollment`
+--
+
+INSERT INTO `user_enrollment` (`id`, `surname`, `othernames`, `address`, `dob`, `gender`, `nationality`, `soo`, `lga`, `class`, `psa`, `disability`, `image_link`, `enrolled`, `date_of_reg`, `date_of_enroll`) VALUES
+(1, 'Mary', 'Troublesome', 'Jimmy street Lagos', '2020-09-24', 'Female', 'Nigerian', 'Delta', 'Ethiope West', 'Advance classes', 'My hometown college', 'No pain', 'C:/xampp2/htdocs/KingsWeb/enroll_uploads/5f5934883d9d83.84080914.jpg', 0, '2020-09-09 19:01:12', '2020-09-09 19:01:12'),
+(2, 'Lamina ', 'Kehinde', 'Dawaki', '2020-09-13', 'Female', 'Nigerian', 'Kogi', 'Ogori Magongo', 'Advance classes', 'Glisten', 'none', 'C:/Program Files/Ampps/www/backend-files/KINGSVILLEWEB/src/enroll_uploads/5f5a0a0b3377b7.63334336.jpg', 0, '2020-09-10 11:12:11', '2020-09-10 11:12:11'),
+(3, 'Lamina ', 'Kehinde', 'Dawaki', '2020-09-13', 'Female', 'Nigerian', 'Ogun', 'Ogun Waterside', 'Advance classes', 'Glisten', 'none', 'C:/Program Files/Ampps/www/backend-files/KINGSVILLEWEB/src/enroll_uploads/5f5a0aa27996e0.40589730.jpg', 0, '2020-09-10 11:14:42', '2020-09-10 11:14:42'),
+(4, 'Adebola', 'Kehinde', 'Dawaki', '2020-09-06', 'Female', 'Nigerian', 'FCT', 'Bwari', 'Advance classes', 'Lekki British School', 'none', 'C:/Program Files/Ampps/www/backend-files/KINGSVILLEWEB/src/enroll_uploads/5f5a0e0ad4a851.91016831.jpg', 0, '2020-09-10 11:29:14', '2020-09-10 11:29:14');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user_parents`
+--
+
+CREATE TABLE `user_parents` (
+  `user_id` int(11) NOT NULL,
+  `fullname` varchar(100) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `phone` varchar(12) NOT NULL,
+  `occupation` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `user_parents`
+--
+
+INSERT INTO `user_parents` (`user_id`, `fullname`, `email`, `phone`, `occupation`) VALUES
+(1, 'Mason Greenwood', 'troublesomemary@gmail.com', '234577183883', 'Lawyer'),
+(2, 'Mrs Mary', 'adebolakehindemary@gmail.com', '08129484897', 'Engineer'),
+(3, 'Mrs Mary', 'adebolakehindemary@gmail.com', '08129484897', 'Engineer'),
+(4, 'Adebola mary', 'adebolakehindemary@gmail.com', '09088776655', 'Engineer');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user_payments`
+--
+
+CREATE TABLE `user_payments` (
+  `user_id` int(11) NOT NULL,
+  `status` varchar(10) DEFAULT 'Not paid',
+  `hash` varchar(20) NOT NULL,
+  `reference` varchar(20) DEFAULT NULL,
+  `updated` varchar(3) NOT NULL DEFAULT 'No',
+  `date_of_pay` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `user_payments`
+--
+
+INSERT INTO `user_payments` (`user_id`, `status`, `hash`, `reference`, `updated`, `date_of_pay`) VALUES
+(1, 'Paid', 'U4KjizhHff7iEyxqzTrN', '350556182', 'Yes', '2020-09-09 19:01:12'),
+(2, 'Not paid', 'qe3WmFAZQ8St7hnUqBlr', NULL, 'No', '2020-09-10 11:12:11'),
+(3, 'Not paid', 'bDq4pJjv4dFGrw2tZwrf', NULL, 'No', '2020-09-10 11:14:42'),
+(4, 'Paid', 'Ums3mS8cdsb7fHPLsRr5', '142482999', 'Yes', '2020-09-10 11:29:15');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `video`
 --
 
@@ -373,6 +457,24 @@ ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `user_enrollment`
+--
+ALTER TABLE `user_enrollment`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `user_parents`
+--
+ALTER TABLE `user_parents`
+  ADD PRIMARY KEY (`user_id`);
+
+--
+-- Indexes for table `user_payments`
+--
+ALTER TABLE `user_payments`
+  ADD PRIMARY KEY (`user_id`);
+
+--
 -- Indexes for table `video`
 --
 ALTER TABLE `video`
@@ -447,6 +549,24 @@ ALTER TABLE `teams`
 --
 ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT for table `user_enrollment`
+--
+ALTER TABLE `user_enrollment`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `user_parents`
+--
+ALTER TABLE `user_parents`
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `user_payments`
+--
+ALTER TABLE `user_payments`
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `video`

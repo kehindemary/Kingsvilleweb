@@ -228,6 +228,7 @@ $username = $user['username'];
                                 </span>
                             </a>
                         </li>
+                        <!--
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" href="javascript:void(0);">
                                 <span class="icon-holder">
@@ -250,6 +251,7 @@ $username = $user['username'];
                                 </li>
                             </ul>
                         </li>
+    -->
                         <li class="nav-item">
                             <a class="dropdown-toggle" href="login.php?logout">
                                 <span class="icon-holder">
