@@ -1,0 +1,942 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+/*Typography starts here .....*/
+.text-lg {
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 1em;
+}
+.card-title{
+  font-weight:600;
+}
+.text-md {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.regular-text {
+  font-size: 15px;
+  font-weight: 400;
+}
+footer .regular-text {
+  font-size: 14px;
+}
+.title-sm {
+  font-size: 18px;
+  font-weight: 600;
+}
+.text-color {
+  color: #be8015;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+/*....Typography ends here*/
+
+/* Header and nav bar styling starts here....*/
+header .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.contact {
+  display: flex;
+  margin: 1em 2em;
+}
+span {
+  display: flex;
+  flex-direction: column;
+}
+.header-top {
+  color: #000033;
+}
+.header-top .btn {
+  width: 10em;
+  height: auto;
+  margin: auto 0;
+  border-color: #000033;
+  border: 2px solid;
+  color: #000033;
+}
+.header-top .btn i {
+  padding: 0 0.2em;
+}
+.header-top .btn:hover {
+  background: #000033;
+  color: white;
+}
+
+/*....header styling ends here */
+
+.banner {
+  width: 100%;
+  display: flex;
+  background: #000033;
+  box-sizing: border-box;
+}
+.caption {
+  width: 50%;
+  margin: auto 0;
+  padding: 0 7.5em;
+}
+.caption h1 {
+  margin: 0;
+  padding: 0;
+}
+.caption p {
+  padding-top: 1em;
+}
+.image-area {
+  width: 50%;
+}
+.img-background {
+  background: url("https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189196/assets/image-slides/classroom-main-min_yxvyzg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 490px;
+  max-width: 100%;
+}
+
+/*....carousel images and styling starts here */
+
+/* Card deck images and styling starts here*/
+.card-img-1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 100%;
+  height: 12em;
+  background-image: url("https://res.cloudinary.com/marykaystuff/image/upload/v1594701263/Kingsville%20Schools/jwgrocfwkbd256gi1zqy.jpg");
+}
+.card-img-2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 100%;
+  height: 12em;
+  background-image: url("https://res.cloudinary.com/marykaystuff/image/upload/v1592940036/Kingsville%20Schools/z9tq1tpmunqzd2gxphsn.jpg");
+}
+.card-img-3 {
+  background-repeat: no-repeat;
+  min-width: 100%;
+  height: 12em;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://res.cloudinary.com/marykaystuff/image/upload/v1592940035/Kingsville%20Schools/wgqyx3a0ebkf1edykop7.jpg");
+}
+.card-img-4 {
+  background-repeat: no-repeat;
+  min-width: 100%;
+  height: 12em;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://res.cloudinary.com/marykaystuff/image/upload/v1592940035/Kingsville%20Schools/wgqyx3a0ebkf1edykop7.jpg");
+}
+.card-deck .card {
+  max-height: 25em;
+  margin-right: 2em;
+  margin-left: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, 0.2);
+
+}
+.card-body {
+  padding: 0.5em;
+}
+.card-deck .card:hover {
+  box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, 0.2);
+  animation: shake ease-in-out 0.5s;
+}
+@keyframes shake{
+0%{
+  transform: rotate(0deg) translateX(0px);
+}
+25%{
+  transform: rotate(-10deg) translateX(-10px);
+}
+50%{
+  transform: rotate(0deg) translateX(0px);
+}
+75%{
+  transform: rotate(10deg) translateX(10px);
+}
+100%{
+  transform: rotate(0deg) translateX(0px);
+}
+}
+
+.card-deck {
+  margin: 3em auto;
+  padding: 3em 0;
+}
+ .link{
+  cursor: pointer;
+}
+.link:hover{
+  text-decoration:none;
+  font-weight: 600;
+  color: #000033;
+}
+.link-2:hover{
+  text-decoration:none;
+  font-weight: 600;
+  color: #f6f6f8;
+}
+.right-text{
+  height: auto;
+  margin: auto 0;
+  padding-left: 1em;
+  width: 50%;
+}
+.left-text{
+  height: auto;
+  margin: auto 0;
+  padding-right: 1em;
+  width: 50%;
+}
+.card-deck i {
+  color: #000033;
+  font-size: 1em;
+}
+/* card deck images and styling ends here*/
+
+/* card group images and styling starts here*/
+.card-group-img-1 {
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://res.cloudinary.com/marykaystuff/image/upload/v1594701264/Kingsville%20Schools/nccjxbc7d2sqquuy8shb.jpg"),
+    linear-gradient(180deg, black 0%, white 100%);
+  background-blend-mode: multiply;
+}
+.card-group-img-2 {
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-image: url("https://res.cloudinary.com/kingsvilleschools/image/upload/v1596535568/assets/image-slides/P1230966-min_n5ziyk.jpg"),
+    linear-gradient(45deg, red 0%, white 100%);
+  background-blend-mode: multiply;
+}
+.card-group-img-3 {
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-image: url("https://res.cloudinary.com/marykaystuff/image/upload/v1594890919/Kingsville%20Schools/hfrjrqmtklnklmatsj1u.jpg"),
+    linear-gradient(180deg, black 0%, white 100%);
+  background-blend-mode: multiply;
+}
+.card-text-style {
+  font-weight: 600;
+  color: white;
+  margin-top: 10em;
+}
+.card-title h1{
+  padding-top: 2em;
+}
+.card-group {
+  margin: 6em;
+  padding: 4em 0;
+  margin: 0 auto;
+}
+.card-content {
+  display: flex;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.icon {
+  height: 5em;
+}
+.card-group .btn {
+  background: #000033;
+}
+.details {
+  color: white;
+  padding-left: 2em;
+}
+/*card group images and styling ends here */
+
+/*chart area starts here*/
+.chart-area {
+  background: white;
+  color: black;
+}
+.right-container iframe {
+  width: 600px;
+  height: 371px;
+}
+.chart-area p {
+  color: black;
+}
+/*chart area ends here*/
+
+.left-container {
+  height: auto;
+  width: 50%;
+  margin: auto 0;
+}
+.right-container .btn {
+  width: 10em;
+  height: auto;
+  margin: auto 0;
+  border-color: #000033;
+  border: 2px solid;
+  color: #000033;
+}
+.right-container .btn i {
+  padding: 0 0.2em;
+}
+.right-container .btn:hover {
+  background: #000033;
+  color: white;
+}
+.A-level {
+  background-repeat: no-repeat;
+  width: 60%;
+  margin-right: 2em;
+  height: 20em;
+  background-size: cover;
+  background-image: url("https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189199/assets/image-slides/student-stairs-sm-min_ntmgwo.jpg");
+}
+/*counter area*/
+.counter-icon {
+  font-size: 2em;
+}
+.counter-area {
+  padding: 5em;
+  background-image: url("https://res.cloudinary.com/marykaystuff/image/upload/v1592479304/Kingsville%20Schools/qyqvpzicspzgdce7s3z7.jpg"),
+    linear-gradient(90deg, red 0%, #000033 100%);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.banner .btn {
+  border: 2px solid #be8015;
+  color: white;
+}
+.banner .btn:hover {
+  background: #be8015;
+}
+
+.banner .btn i {
+  padding: 0 0.5em;
+}
+.btn:hover {
+  transition: transform ease 3s;
+  transform: scale(1.1);
+
+}
+.fa-caret-right {
+  margin: auto 0;
+}
+/*Card stylings start here*/
+.background-banner {
+  background-image: linear-gradient(90deg, #e0e0ee 100%, red 0%);
+  background-blend-mode: multiply;
+  width: 100%;
+}
+.card-container {
+  display: flex;
+  height: auto;
+  color: white;
+  font-size: 1.2em;
+  padding: 6em 0;
+}
+.card-format {
+  margin: 0 auto;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  padding: 3em 0;
+  height: auto;
+}
+.main-container .text-style {
+  color: white;
+}
+.left-container iframe {
+  width: 35em;
+  height: 18em;
+  margin: auto 0;
+  border: none;
+}
+.right-container {
+  height: auto;
+  width: 50%;
+  padding: 2em 0;
+}
+.counter-area {
+  padding: 2em;
+  font-size: 14px;
+}
+.counter-area h2 {
+  font-size: 25px;
+}
+/*image slider starts here*/
+.carousel-cell {
+  width: 20%;
+  margin: 4em 1em;
+}
+.flickity-page-dots .dot {
+  display: none;
+}
+/* cell number */
+.carousel-cell:before {
+  display: block;
+}
+/*footer stlying starts here*/
+.how-it-works {
+  font-size: 2em;
+  color: black;
+  text-align: center;
+  margin: 3em auto;
+  font-weight: bold;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: auto;
+  padding: 2em 0;
+  color: #000033;
+  font-size: 1em;
+  background: white;
+}
+footer a {
+  color: #000033;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #000033;
+  text-decoration: none;
+}
+.footer-contact-area {
+  background: #000033;
+  padding: 3em 0;
+}
+.footer-contact-area .container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+.social-media-icon {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5em;
+}
+footer .btn-icon-only {
+  color: white;
+}
+footer .btn:hover {
+  background: white;
+  color: #be8015;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+}
+footer .btn {
+  border: 1px solid;
+  border-color: #be8015;
+  margin-right: 0.5em;
+}
+footer p {
+  line-height: 0.8em;
+}
+.map-area {
+  background: #000033;
+}
+footer hr {
+  background: #000033;
+}
+.map-area iframe {
+  width: 100%;
+  height: auto;
+}
+/*admission form styles starts here*/
+.logo-area{
+  margin:1em auto;
+  display: flex;
+  justify-content: center;
+}
+.form-title{
+  background:rgba(241, 181, 70, 0.8); 
+  width: 100%;
+  border: 1px solid;
+  margin-top: 1em;
+  padding: 1em 2em;
+  border-radius: 5px;
+}
+.form-text{
+  background:rgba(84, 62, 145, 0.8); 
+  width: 100%;
+  border: 1px solid;
+  padding: 0.5em 2em;
+  margin: 1em 0;
+  border-radius: 5px;
+}
+.form-text p{
+  margin-bottom: 0;
+   color:white;
+}
+.form-text span{
+  color: rgb(214, 52, 52);
+  display: inline;
+}
+.form-title p{
+  margin-bottom: 0;
+  color:white;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto;
+  width: 50%;
+  background: #000033;
+  padding: 1em 2em;
+  box-sizing: border-box;
+}
+.form-container input{
+  margin: 0;
+  font-size: 14px;
+}
+.form-container label{
+  margin: 1em 0;
+  color:white;
+}
+.form-container .btn{
+  width: 50%;
+  margin: 2em auto;
+  border: 2px solid #bE8015;
+  background: #000033;
+  color: white;
+}
+.notice{
+  background:rgba(84, 62, 145, 0.8); 
+  width: 100%;
+  border: 1px solid;
+  padding: 0.5em 2em;
+  margin: 1em 0;
+  border-radius: 5px;
+}
+.notice p{
+  color: white;
+  margin-bottom: 0;
+  padding: 1em 0;
+}
+/*admission form styles end here*/
+/* about page banner starts here */
+.about-page-banner {
+  background-image: url("https://res.cloudinary.com/kingsvilleschools/image/upload/v1596535569/assets/image-slides/SECTION_OF_THE_CLASSROOM_BLOCKS.-min-min_mzyd0z.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 490px;
+}
+.gallery-banner-img{
+  background-image: url('https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189195/assets/image-slides/baley-min_nzpwks.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:490px;
+}
+.academics-banner-img{
+    background-image: url('https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189198/assets/image-slides/library-min_npfm5a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:490px;
+  }
+.clubs-banner-img{
+    background-image: url('https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189195/assets/image-slides/basketball-team-min_ag2pua.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:490px;
+  }
+  .facilities-banner-img{
+    background-image: url('https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189198/assets/image-slides/physics-lab-min_ye0ur0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:490px;
+  }
+  .admission-banner-img{
+    background-image: url('https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189199/assets/image-slides/student-stairs-min_pxj5zi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:490px;
+  }
+  .advanced-banner-img{
+    background-image: url('https://res.cloudinary.com/kingsvilleschools/image/upload/v1598608810/assets/image-slides/advance-classes_qlxpdg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:490px;
+  }
+  .news-banner-img{
+    background-image: url('https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189195/assets/image-slides/baley-min_nzpwks.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:490px;
+  }
+  .sticky-background{
+    background: url('https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189199/assets/image-slides/SECTION_OF_THE_CLASSROOM_BLOCKS-min_sqt3rb.jpg'),
+    linear-gradient(180deg ,black 0%, rgba(0, 0, 0, 0.65) 100%);
+   background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .sticky-background1{
+    background: url('https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189196/assets/image-slides/FRONT_VIEW-min_qdya2t.jpg'),
+    linear-gradient(180deg ,black 0%, rgba(0, 0, 0, 0.65) 100%);
+   background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+.banner-text{
+    color: white;
+    width: 100%;
+    padding: 7em 2.5em;
+    font-size: 25px;
+    font-weight: 600;
+    height: 50%;
+}
+.about-page-banner h1 {
+  color: #be8015;
+  width: 100%;
+  margin: auto 0;
+  padding: 3em 2.5em;
+  height: 50%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .header-top {
+    max-width: 100%;
+    margin: 0.5em auto;
+  }
+  .hide-content {
+    display: none;
+  }
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-top .btn {
+    width: 6em;
+    height: auto;
+    margin: auto 0;
+    font-weight: 14px;
+    line-height: 1em;
+  }
+  .navbar {
+    padding: 0 1em;
+  }
+  .banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    background: #000033;
+  }
+  .caption {
+    width: 100%;
+    margin: auto 0;
+    padding: 3em 1em;
+  }
+  .caption h1 {
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .caption p {
+    font-size: 14px;
+  }
+  .image-area {
+    width: 100%;
+    height: 50%;
+  }
+  .img-background {
+    height: 300px;
+  }
+  .card-group .card {
+    margin: 0 auto;
+  }
+  .card-deck .card:hover {
+    transition: none;
+    transform: none;
+  }
+  .details {
+    width: 15em;
+  }
+.container{
+  margin: 0 auto;
+}
+.card-title h1{
+    padding: 1em;
+}
+.card-deck .card{
+    margin:1em 2em;
+}
+  .card-deck{
+    margin: 0 ;
+    padding:0;
+  }
+  .card-group-img-3 {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-image: url("https://res.cloudinary.com/marykaystuff/image/upload/v1594890919/Kingsville%20Schools/hfrjrqmtklnklmatsj1u.jpg"),
+      linear-gradient(180deg, black 0%, white 100%);
+    background-blend-mode: multiply;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0;
+    height: auto;
+  }
+  .right-container {
+    height: auto;
+    width: 100%;
+    padding: 0 1em;
+    font-size: 0.8em;
+    margin-top: 3em;
+  }
+  .left-container iframe {
+    width: 100%;
+    height: 18em;
+    margin: auto 0;
+    padding: 0 1em;
+  }
+  .left-container {
+    height: auto;
+    width: 100%;
+    margin: auto 0;
+  }
+  .right-container img {
+    width: 100%;
+    height: 25em;
+  }
+  .chart-area {
+    font-size: 0.8em;
+    padding: 0 1em;
+  }
+  .A-level {
+    height: 20em;
+  }
+  .carousel-cell {
+    width: 80%;
+  }
+
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+    font-size: 0.8em;
+  }
+  .text-md {
+    font-size: 16px;
+  }
+  .regular-text {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .footer-contact-area .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+  }
+  .footer-contact {
+    padding: 2em 0;
+  }
+  .about img{
+    margin-top:1.5em;
+  }
+  .form-container{
+    width: 100%;
+  }
+  .form-container .btn{
+    width: 70%;
+    
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .header-top {
+    padding: 0;
+    margin: 0;
+  }
+  .header-top .btn {
+    width: 8em;
+    height: auto;
+    margin: auto 0;
+    font-weight: 14px;
+    line-height: 1em;
+  }
+  .navbar {
+    padding: 0 1.8em;
+  }
+  .hide-content {
+    display: block;
+  }
+  .banner {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #000033;
+    flex-wrap: wrap;
+  }
+  .caption {
+    width: 50%;
+    margin: auto 0;
+    padding: 0 2em;
+    height: 50%;
+    font-size: 15px;
+  }
+  .regular-text {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .banner .text-color {
+    font-size: 25px;
+  }
+  .image-area {
+    width: 50%;
+  }
+  .img-background {
+    background: url("https://res.cloudinary.com/kingsvilleschools/image/upload/v1596535569/assets/image-slides/classroom-min-min_bpcnxs.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+  }
+  .text-md {
+    font-size: 20px;
+  }
+  .card-deck .card {
+    max-width: 25em;
+    margin-left: 0;
+    max-height: 25em;
+    margin-right: 1em;
+  }
+  .card-deck {
+    margin-bottom: 0;
+  }
+  .card-img-1, .card-img-2,.card-img-3,.card-img-4{
+    max-height: 9.5em;
+  }
+  .card-group-area {
+    margin: auto 0;
+    height: 25em;
+  }
+
+  .card-group {
+    padding: auto 0;
+    margin: 0 auto;
+    height: 10em;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    padding: 3em 0;
+    height: auto;
+  }
+  .left-container {
+    width: 50%;
+    height: 25em;
+    margin: auto 0;
+  }
+  .left-container iframe {
+    width: 22em;
+    height: 25em;
+    margin: auto 0;
+    border: none;
+  }
+  .right-container {
+    height: 25em;
+    width: 50%;
+    margin: auto 0;
+
+  }
+  .right-container img {
+    width: 350px;
+    height: 300px;
+  }
+  .right-container p{
+    margin-bottom: 0;
+  }
+  .right-text{
+    height: auto;
+    margin: auto 0;
+    padding-left: 1em;
+    width: 50%;
+  }
+  .left-text{
+    height: auto;
+    margin: auto 0;
+    padding-right: 1em;
+    width: 50%;
+  }
+  .A-level {
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 25em;
+    background-size: cover;
+    background-position: center;
+  }
+  .counter-area {
+    padding: 2em 0;
+    font-size: 14px;
+  }
+  .counter-area h2 {
+    font-size: 20px;
+  }
+  .footer-container p {
+    line-height: 1em;
+    padding: 0.5em;
+  }
+  .logo-area{
+    margin-top:1em;
+  }
+  .title-sm{
+    font-size:14px;
+  }
+  .footer-container p{
+    margin-bottom: 0;
+  }
+  footer .regular-text{
+    font-size: 14px;
+    line-height: 1.2em;
+  }
+  .form-container{
+    width: 80%;
+  }
+  .form-container .btn{
+    width: 50%;
+  }
+}

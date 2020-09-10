@@ -1,0 +1,70 @@
+.logo-area{
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+.form-title{
+    background:rgba(241, 181, 70, 0.8); 
+    width: 100%;
+    border: 1px solid;
+    margin-top: 1em;
+    padding: 1em 2em;
+    border-radius: 5px;
+}
+.form-text{
+    background:rgba(84, 62, 145, 0.8); 
+    width: 100%;
+    border: 1px solid;
+    padding: 0.5em 2em;
+    margin: 1em 0;
+    border-radius: 5px;
+}
+.form-text p{
+    margin-bottom: 0;
+     color:white;
+}
+.form-text span{
+    color: rgb(214, 52, 52);
+    display: inline;
+}
+.form-title p{
+    margin-bottom: 0;
+    color:white;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+    width: 50%;
+    background: #000033;
+    padding: 1em 2em;
+    box-sizing: border-box;
+}
+.form-container input{
+    margin: 0;
+    font-size: 14px;
+}
+.form-container label{
+    margin: 1em 0;
+    color:white;
+}
+.form-container .btn{
+    width: 50%;
+    margin: 2em auto;
+    border: 2px solid #bE8015;
+    background: #000033;
+    color: white;
+}
+.notice{
+    background:rgba(84, 62, 145, 0.8); 
+    width: 100%;
+    border: 1px solid;
+    padding: 0.5em 2em;
+    margin: 1em 0;
+    border-radius: 5px;
+}
+.notice p{
+    color: white;
+    margin-bottom: 0;
+    padding: 1em 0;
+}
