@@ -61,7 +61,7 @@
         <li><a href="index.php">Home</a></li>
         <li>
                   <label for="btn-1" class="show">Discover +</label>
-                  <a href="about.php">Discover</a>
+                  <a href="#">Discover</a>
                   <input type="checkbox" id="btn-1">
                   <ul>
         <li><a href="about.php">About Kingsville</a></li>
@@ -73,7 +73,7 @@
         </li>
         <li>
                   <label for="btn-2" class="show">Our School </label>
-                  <a href="academics.php">Our School</a>
+                  <a href="#">Our School</a>
                   <input type="checkbox" id="btn-2">
                   <ul>
         <li><a href="academics.php">Curriculum</a></li>

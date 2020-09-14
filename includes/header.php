@@ -52,7 +52,7 @@ $cms = getCMS();
             </div>
             <div class="contact">
             <div class="mx-2 hide-content"><span class="regular-text">Email</span>  admin@kingsvilleschool.com.ng</div>
-            <div class="mx-2 hide-content"><span class="regular-text">Phone</span>  +234 (0)1 453 7247</div>
+            <div class="mx-2 hide-content"><span class="regular-text">Phone</span>  +234 (0) 803 630 4935</div>
             <a href="portal">
             <button class = "btn regular-text hide-content">Student Portal<i class="fa fa-caret-right btn-icon-only hide-content" aria-hidden="true"></i></button>
             </a>  
@@ -69,7 +69,7 @@ $cms = getCMS();
         <li><a href="index.php">Home</a></li>
         <li>
                   <label for="btn-1" class="show">Discover +</label>
-                  <a href="about.php">Discover</a>
+                  <a href="#">Discover</a>
                   <input type="checkbox" id="btn-1">
                   <ul>
         <li><a href="about.php">About Kingsville</a></li>
@@ -81,7 +81,7 @@ $cms = getCMS();
         </li>
         <li>
                   <label for="btn-2" class="show">Our School </label>
-                  <a href="academics.php">Our School</a>
+                  <a href="#">Our School</a>
                   <input type="checkbox" id="btn-2">
                   <ul>
         <li><a href="academics.php">Curriculum</a></li>

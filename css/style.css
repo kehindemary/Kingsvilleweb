@@ -1109,11 +1109,13 @@ h2.sidebar-title:before {
   background: #000033;
   color: #ffffff;
 }
+
+
 .sidebar-ghost-btn {
   text-align: center;
   color: #000033;
-  padding: 8px 0;
-  width: 160px;
+  margin: 2em;
+  padding: 8px;
   font-style: italic;
   background: transparent;
   text-transform: uppercase;
@@ -8655,7 +8657,7 @@ ul.course-feature2 li:before {
   -ms-transform: translateY(-50%);
   left: 0;
   right: 0;
-  margin: 0 auto;
+  margin: 0 1em;
   z-index: 2;
 }
 .price-range-wrapper {

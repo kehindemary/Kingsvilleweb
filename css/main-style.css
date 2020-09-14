@@ -48,7 +48,7 @@ header .container {
 }
 .contact {
   display: flex;
-  margin: 1em 2em;
+  margin: 0.5em 1em;
 }
 span {
   display: flex;
@@ -60,7 +60,7 @@ span {
 .header-top .btn {
   width: 10em;
   height: auto;
-  margin: auto 0;
+  margin: 1em;
   border-color: #000033;
   border: 2px solid;
   color: #000033;
@@ -106,7 +106,12 @@ span {
 }
 
 /*....carousel images and styling starts here */
-
+.carousel-hidden{
+  display:block;
+}
+.carousel-item img{
+  height: 400px;
+}
 /* Card deck images and styling starts here*/
 .card-img-1 {
   background-repeat: no-repeat;
@@ -682,6 +687,10 @@ footer hr {
     transition: none;
     transform: none;
   }
+  .sidebar-latest-research-area ul, .sidebar-categories{
+    display: block;
+  }
+
   .details {
     width: 15em;
   }
@@ -736,13 +745,16 @@ footer hr {
   }
   .left-text, .right-text{
     width:100%;
-    height: auto;
+    height: 50%;
     margin: auto 0;
-    padding:0 1em;
+    padding: 1em;
   }
   .chart-area {
     font-size: 0.8em;
     padding: 0 1em;
+  }
+  .link-2 p{
+    margin-bottom: 0;
   }
   .A-level {
     height: 20em;
@@ -750,7 +762,16 @@ footer hr {
   .carousel-cell {
     width: 80%;
   }
-
+  .carousel-item img{
+    height: 200px;
+  }
+  .about-page-banner,.gallery-banner-img, .academics-banner-img, .clubs-banner-img, .facilities-banner-img,
+  .admission-banner-img, .advanced-banner-img, .news-banner-img{
+    height:300px;
+  }
+  .carousel-hidden{
+    display:none;
+  }
   /* cell number */
   .carousel-cell:before {
     display: block;
@@ -796,9 +817,13 @@ footer hr {
   .header-top .btn {
     width: 8em;
     height: auto;
-    margin: auto 0;
-    font-weight: 14px;
+    margin: 1em 0;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 1em;
+  }
+  .contact{
+    margin: 1em;
   }
   .navbar {
     padding: 0 1.8em;
@@ -806,6 +831,10 @@ footer hr {
   .hide-content {
     display: block;
   }
+  .show-content{
+    display: none;
+  }
+
   .banner {
     max-width: 100%;
     display: flex;
@@ -823,6 +852,9 @@ footer hr {
   .regular-text {
     font-size: 14px;
     font-weight: 400;
+  }
+  .carousel-hidden{
+    display:block;
   }
   .card-title {
     font-size: 18px;

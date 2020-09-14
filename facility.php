@@ -25,31 +25,18 @@
                     <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 col-md-push-3">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="course-details-inner">
-                                <div id="carousel-custom" class="carousel slide" data-ride="carousel">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                     <!-- Wrapper for slides -->
-                                    <div class="carousel-inner" role="listbox" style="height:400px">
+                                    <div class="carousel-inner" role="listbox">
                                         <?php $x =0; foreach(getGallery() as $facility){  ?>
                                         <?php if($facility['category'] == 'facility'){ $x++;?>
-                                            <div class="item <?php if($x==1){ ?> active <?php } ?>">
-                                                <img width ="100%" src="<?php echo $facility['image_location']; ?>" class="img-responsive">
+                                            <div class="carousel-item <?php if($x==1){ ?> active <?php } ?>">
+                                                <img src="<?php echo $facility['image_location']; ?>" class="img-responsive d-block w-100">
                                             </div>
                                         <?php } ?>
                                         <?php } ?>
                                     </div>
-                                        
-                                    <!-- Indicators -->
-                                    <ol class="carousel-indicators visible-sm-block hidden-xs-block visible-md-block visible-lg-block">
-                                        <?php $x =0; foreach(getGallery() as $facility){ ?>
-                                        <?php if($facility['category'] == 'facility'){ $x++; ?>
-                                        <li data-target="#carousel-custom" data-slide-to="<?php echo $x; ?>" <?php if($x==1){ ?> class="active" <?php } ?>>
-                                            <img src="<?php echo $facility['image_location']; ?>" class="img-responsive" style="height:50px; width:100px;">
-                                        </li>
-                                        <?php } ?>
-                                        <?php } ?>
-                                        
-                                    </ol> 
                                 </div>
-                                        
                                 <h2 class="title-default-left title-bar-high">Our Facilities</h2>
                                 <p>The academic facilities at Kingsville School are extensively tailored to give a well rounded, cutting edge education to every student. Coupled with competent staff, both academic and non-academic, Kingsville School is fully equipped to meet the expectations of attaining a modern and up-to-date education.</p>
                                 <h3 class="sidebar-title">At a Glance:</h3>
@@ -65,7 +52,6 @@
                                     <li>Track and Field </li>
                                     <li>Elementary School Playground</li>
                                 </ul>
-                                
                                 
                             </div>
                         </div>

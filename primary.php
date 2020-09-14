@@ -22,75 +22,81 @@
         <!-- Courses Page 1 Area Start Here -->
         <div class="courses-page-area1">
             <div class="container">
-                <div class="row">
+            <div class="row">
                     <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 col-md-push-3">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="course-details-inner">
                                 <div id="carousel-custom" class="carousel slide" data-ride="carousel">
                                     <!-- Wrapper for slides -->
-                                    <div class="carousel-inner" role="listbox" style="height:400px">
-                                    <div class="item active">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614999/assets/image-slides/12-min_vogw8y.jpg" class="img-responsive">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614999/assets/image-slides/12-min_vogw8y.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598615001/assets/image-slides/13-min_nvfczy.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598615001/assets/image-slides/13-min_nvfczy.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/1-min_qn8kkb.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/1-min_qn8kkb.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598607602/assets/image-slides/event-min_zs8rl1.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598607602/assets/image-slides/event-min_zs8rl1.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/4-min_alumw3.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/4-min_alumw3.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189199/assets/image-slides/tennis-min_xdlacl.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189199/assets/image-slides/tennis-min_xdlacl.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189195/assets/image-slides/basketball-team-min_ag2pua.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189195/assets/image-slides/basketball-team-min_ag2pua.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1596535569/assets/image-slides/vocational-skill-min-min_srhgjw.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1596535569/assets/image-slides/vocational-skill-min-min_srhgjw.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/10-min_l6b9nu.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/10-min_l6b9nu.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189194/assets/image-slides/baley-min-min_bycpuu.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189194/assets/image-slides/baley-min-min_bycpuu.jpg" class="img-responsive d-block">
+                                        </div>
+                                        <div class="carousel-item">
+                                        <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598607598/assets/image-slides/schoolbus-min_ha4fzj.jpg" class="img-responsive d-block">
                                         </div>
                                     </div>
                                         
                                     <!-- Indicators -->
-                                    <ol class="carousel-indicators visible-sm-block hidden-xs-block visible-md-block visible-lg-block">
-                                    <li data-target="#carousel-custom" data-slide-to="1" class="active">
+                                    <ol class="carousel-indicators carousel-hidden">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614999/assets/image-slides/12-min_vogw8y.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="2">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598615001/assets/image-slides/13-min_nvfczy.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="3">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/1-min_qn8kkb.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="4">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="3">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598607602/assets/image-slides/event-min_zs8rl1.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="5">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="4">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/4-min_alumw3.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="6">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="5">
+                                            <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189199/assets/image-slides/tennis-min_xdlacl.jpg" class="img-responsive" style="height:50px; width:100px;">
+                                        </li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="6">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189195/assets/image-slides/basketball-team-min_ag2pua.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="7">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="7">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1596535569/assets/image-slides/vocational-skill-min-min_srhgjw.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="8">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="8">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/10-min_l6b9nu.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="9">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="9">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189194/assets/image-slides/baley-min-min_bycpuu.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="10">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="10">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598607598/assets/image-slides/schoolbus-min_ha4fzj.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
                                     </ol> 
@@ -116,7 +122,7 @@
         <?php
             include 'includes/footer.php';
         ?>
-        
+     
         <style>
             #carousel-custom {
                 margin-top:  10px;

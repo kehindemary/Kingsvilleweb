@@ -18,82 +18,88 @@
         </div>
   </div>
 </section>
-        <!-- Inner Page Banner Area End Here -->
+       <!-- Inner Page Banner Area End Here -->
         <!-- Courses Page 1 Area Start Here -->
         <div class="courses-page-area1">
             <div class="container">
-                <div class="row">
+            <div class="row">
                     <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 col-md-push-3">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="course-details-inner">
                                 <div id="carousel-custom" class="carousel slide" data-ride="carousel">
                                     <!-- Wrapper for slides -->
-                                    <div class="carousel-inner" role="listbox" style="height:400px">
-                                    <div class="item active">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614999/assets/image-slides/12-min_vogw8y.jpg" class="img-responsive">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614999/assets/image-slides/12-min_vogw8y.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598615001/assets/image-slides/13-min_nvfczy.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598615001/assets/image-slides/13-min_nvfczy.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/1-min_qn8kkb.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/1-min_qn8kkb.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598607602/assets/image-slides/event-min_zs8rl1.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598607602/assets/image-slides/event-min_zs8rl1.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/4-min_alumw3.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/4-min_alumw3.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189199/assets/image-slides/tennis-min_xdlacl.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189199/assets/image-slides/tennis-min_xdlacl.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189195/assets/image-slides/basketball-team-min_ag2pua.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189195/assets/image-slides/basketball-team-min_ag2pua.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1596535569/assets/image-slides/vocational-skill-min-min_srhgjw.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1596535569/assets/image-slides/vocational-skill-min-min_srhgjw.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/10-min_l6b9nu.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/10-min_l6b9nu.jpg" class="img-responsive d-block">
                                         </div>
-                                        <div class="item">
-                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189194/assets/image-slides/baley-min-min_bycpuu.jpg" class="img-responsive">
+                                        <div class="carousel-item">
+                                            <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189194/assets/image-slides/baley-min-min_bycpuu.jpg" class="img-responsive d-block">
+                                        </div>
+                                        <div class="carousel-item">
+                                        <img width = "100%" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598607598/assets/image-slides/schoolbus-min_ha4fzj.jpg" class="img-responsive d-block">
                                         </div>
                                     </div>
                                         
                                     <!-- Indicators -->
-                                    <ol class="carousel-indicators visible-sm-block hidden-xs-block visible-md-block visible-lg-block">
-                                    <li data-target="#carousel-custom" data-slide-to="1" class="active">
+                                    <ol class="carousel-indicators carousel-hidden">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614999/assets/image-slides/12-min_vogw8y.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="2">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598615001/assets/image-slides/13-min_nvfczy.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="3">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/1-min_qn8kkb.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="4">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="3">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598607602/assets/image-slides/event-min_zs8rl1.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="5">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="4">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/4-min_alumw3.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="6">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="5">
+                                            <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189199/assets/image-slides/tennis-min_xdlacl.jpg" class="img-responsive" style="height:50px; width:100px;">
+                                        </li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="6">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189195/assets/image-slides/basketball-team-min_ag2pua.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="7">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="7">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1596535569/assets/image-slides/vocational-skill-min-min_srhgjw.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="8">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="8">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598614998/assets/image-slides/10-min_l6b9nu.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="9">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="9">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598189194/assets/image-slides/baley-min-min_bycpuu.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                        <li data-target="#carousel-custom" data-slide-to="10">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="10">
                                             <img src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1598607598/assets/image-slides/schoolbus-min_ha4fzj.jpg" class="img-responsive" style="height:50px; width:100px;">
                                         </li>
-                                    </ol> 
+                                    </ol>
                                 </div>
                                 </div>
                             <div class="course-details-inner">
@@ -107,301 +113,79 @@
                                 <p>Did you know that 90% of our graduating students get into universities worldwide? Our rigorous curriculum prepares students for universities all over the world, not just Nigeria. We have experienced guidance counselors preparing students to make the best impression for universities. Our program helps students get into top ranked universities. We regularly graduate students into some of the top universities worldwide.</p>
                                
                                 <!-- A'Level Area Start Here -->
-                                <div class="brand-area">
-                                        <div class="rc-carousel" data-loop="true" data-items="4" data-margin="30" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="2000" data-dots="false" data-nav="false" data-nav-speed="false" data-r-x-small="2" data-r-x-small-nav="false" data-r-x-small-dots="false" data-r-x-medium="3" data-r-x-medium-nav="false" data-r-x-medium-dots="false" data-r-small="4" data-r-small-nav="false" data-r-small-dots="false" data-r-medium="4" data-r-medium-nav="false" data-r-medium-dots="false" data-r-large="4" data-r-large-nav="false" data-r-large-dots="false">
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/1.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/2.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/3.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/4.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/5.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/6.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/7.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/8.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/9.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/10.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/11.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/12.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/13.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/14.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/15.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/16.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/17.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/18.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/19.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/20.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/21.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/22.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/23.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/24.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/25.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/26.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/27.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/28.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/29.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/30.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/31.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/32.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/33.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/34.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/35.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/36.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/37.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/38.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/39.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/40.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/41.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/42.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/43.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/44.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/45.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/46.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/47.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/48.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/49.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/50.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/51.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/52.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/53.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/54.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/55.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/56.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/57.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/58.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/59.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/60.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/61.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/62.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/63.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/64.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/65.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/66.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/67.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/68.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/69.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/70.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/71.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/72.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/73.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/74.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/75.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/76.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/77.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/78.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/79.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/80.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/81.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/82.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/83.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/84.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/85.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/86.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/87.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/88.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/89.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/90.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/91.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/92.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/93.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/94.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/95.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/96.png" alt="brand"></a>
-                                            </div>
-                                            <div class="brand-area-box">
-                                                <a href="#"><img src="img/brand/97.png" alt="brand"></a>
-                                            </div>
-                                    </div>
-                                </div>
+            <section>
+  <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true }'>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586170/assets/brand/18_olt2ne.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586221/assets/brand/90_fnjide.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586221/assets/brand/91_togw18.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586220/assets/brand/87_gh4plq.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586220/assets/brand/86_g8phun.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586220/assets/brand/84_t7pypo.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586220/assets/brand/85_fzsaqy.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586220/assets/brand/83_fgvqu8.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586219/assets/brand/77_x3tdyw.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586218/assets/brand/76_v3hasr.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586218/assets/brand/75_xddzli.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586218/assets/brand/74_lb4zca.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586218/assets/brand/72_irpmxw.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586175/assets/brand/66_igiecu.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586175/assets/brand/62_qo5mto.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586173/assets/brand/55_hppxjh.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586173/assets/brand/54_wqqs2u.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586173/assets/brand/53_fijzrg.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586173/assets/brand/52_wh3f7l.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586173/assets/brand/51_hvmhtl.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586172/assets/brand/46_mpqq8b.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586171/assets/brand/42_gyqdvt.png">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="https://res.cloudinary.com/kingsvilleschools/image/upload/v1595586169/assets/brand/17_syyukp.png">
+    </div>
+  </div>
+</section>
                                 <!-- A'level Area End Here -->
                             </div>
                         </div>
